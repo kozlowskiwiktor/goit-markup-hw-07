@@ -1,0 +1,24 @@
+.logo__name--blue {
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: var(--add-font);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo--black {
+    color: var(--tertiary-color);
+    align-items: baseline;
+    margin-right: 93px;
+}
+
+.logo--black:hover,
+.logo--black:focus,
+.logo--black:visited {
+    color: var(--tertiary-color);
+    transition: color 250ms var(--cubic-bezier);
+}
