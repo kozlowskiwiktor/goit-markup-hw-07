@@ -69,11 +69,10 @@
 
 .footer__logo {
     color: var(--primary-color);
+
+    &:hover, &:focus, &:visited {
+            color: var(--primary-color);
+            transition: color 250ms var(--cubic-bezier);
+        }
 }
 
-.footer__logo:hover,
-.footer__logo:focus,
-.footer__logo:visited {
-    color: var(--primary-color);
-    transition: color 250ms var(--cubic-bezier);
-}

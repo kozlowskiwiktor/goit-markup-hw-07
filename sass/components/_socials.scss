@@ -21,14 +21,14 @@
     fill: #afb1b8;
     justify-content: center;
     align-items: center;
+
+    &:hover, &:focus {
+            background-color: var(--main-color);
+            border-radius: 50%;
+            fill: var(--primary-color);
+            cursor: pointer;
+            transition: fill 250ms var(--cubic-bezier),
+                background-color 250ms var(--cubic-bezier);
+        }
 }
 
-.icon__sm:hover,
-.icon__sm:focus {
-    background-color: var(--main-color);
-    border-radius: 50%;
-    fill: var(--primary-color);
-    cursor: pointer;
-    transition: fill 250ms var(--cubic-bezier),
-        background-color 250ms var(--cubic-bezier);
-}

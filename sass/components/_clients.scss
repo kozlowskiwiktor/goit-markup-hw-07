@@ -16,13 +16,12 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     fill: #afb1b8;
-}
 
-.client__icon:hover,
-.client__icon:focus {
-    fill: var(--main-color);
-    border-color: var(--main-color);
-    cursor: pointer;
-    transition: fill 250ms var(--cubic-bezier),
-        border-color 250ms var(--cubic-bezier);
+    &:hover, &:focus {
+            fill: var(--main-color);
+            border-color: var(--main-color);
+            cursor: pointer;
+            transition: fill 250ms var(--cubic-bezier),
+                border-color 250ms var(--cubic-bezier);
+        }
 }

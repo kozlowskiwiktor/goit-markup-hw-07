@@ -14,11 +14,10 @@
     color: var(--tertiary-color);
     align-items: baseline;
     margin-right: 93px;
+
+    &:hover, &:focus, &:visited {
+            color: var(--tertiary-color);
+            transition: color 250ms var(--cubic-bezier);
+        }
 }
 
-.logo--black:hover,
-.logo--black:focus,
-.logo--black:visited {
-    color: var(--tertiary-color);
-    transition: color 250ms var(--cubic-bezier);
-}
