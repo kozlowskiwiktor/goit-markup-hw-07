@@ -22,7 +22,7 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.26em;
-    color: var(--primary-color);
+    color: $primary-color;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -34,12 +34,12 @@
 }
 
 .slider__btn {
-    border-color: var(--main-color);
-    background-color: var(--main-color);
+    border-color: $main-color;
+    background-color: $main-color;
     width: 200px;
     font-weight: 700;
     font-size: 16px;
-    color: var(--primary-color);
+    color: $primary-color;
     line-height: 1.87em;
     height: 50px;
     cursor: pointer;

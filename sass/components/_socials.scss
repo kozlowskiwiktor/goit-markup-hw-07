@@ -23,12 +23,12 @@
     align-items: center;
 
     &:hover, &:focus {
-            background-color: var(--main-color);
+            background-color: $main-color;
             border-radius: 50%;
-            fill: var(--primary-color);
+            fill: $primary-color;
             cursor: pointer;
-            transition: fill 250ms var(--cubic-bezier),
-                background-color 250ms var(--cubic-bezier);
+            transition: fill 250ms $cubic-bezier,
+                background-color 250ms $cubic-bezier;
         }
 }
 

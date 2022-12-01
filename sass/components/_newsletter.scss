@@ -37,16 +37,16 @@
 
 input::placeholder {
     letter-spacing: 0.03em;
-    color: var(--shadows);
+    color: $shadows;
 }
 
 .newsletter input,
 .newsletter textarea {
-    color: var(--shadows);
+    color: $shadows;
     padding-left: 16px;
 }
 
 .newsletter textarea:focus,
 .newsletter input:focus {
-    color: var(--shadows);
+    color: $shadows;
 }
