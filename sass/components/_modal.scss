@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.btn--close {
+.modal__btn--close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -22,7 +22,7 @@
     background-color: var(--primary-color);
 }
 
-.btn--close:hover {
+.modal__btn--close:hover {
     transform: scale(1.1);
     transition: transform 250ms var(--cubic-bezier);
 }
